@@ -7,7 +7,7 @@ Check out the justfile for a bunch of scripts that will build a kernel and assem
 Probably incomplete list of dependencies you need.
 
 - coreboot-utils (AUR) for checking vboot-utils, you need to modify the prepare() according to [this comment](https://aur.archlinux.org/packages/coreboot-utils#comment-949575). Alternatively you can disable vboot-utils tests by using `makepkg -s --nocheck`.
-- patched vboot-utils from [this repo]()
+- patched vboot-utils from [this repo](https://github.com/kleinesfilmroellchen/vboot-utils-aur)
 - fdisk
 - uboot-tools
 - depthcharge-tools (AUR)
